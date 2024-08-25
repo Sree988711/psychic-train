@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <header class="header">
@@ -23,43 +24,48 @@
 
         <a href="#contact" class="contact">Contact Me</a>
     </header>
+<!-- fix from here -->
+<!-- home section -->
+    <section class="home container-fluid text-start">
+        <div class="row">
+            <div class="home-content col">
+                <h3>Hey,</h3>
 
-    <section class="home">
-        <div class="home-content">
-            <h3>Hey,</h3>
-
-            <h1>I'm <span>Sreejith<br/></span>a Frontend Developer</h1>
+                <h1>I'm <span>Sreejith<br/></span>a Frontend Developer</h1>
         
-            <p>Specializing in crafting engaging user experiences. I thrive on transforming creative ideas into functional, responsive designs that captivate audiences. With expertise in HTML5, CSS3, JavaScript, I create seamless interfaces that blend aesthetics with intuitive functionality.
-            <br/> Let's connect and explore how I can contribute to your next digital journey. Whether you're seeking a redesign, a scalable frontend solution, or innovative UX enhancements, I'm eager to bring your vision to life.
-            </p>
+                <p>Specializing in crafting engaging user experiences. I thrive on transforming creative ideas into functional, responsive designs that captivate audiences. With expertise in HTML5, CSS3, JavaScript, I create seamless interfaces that blend aesthetics with intuitive functionality.
+                <br/> Let's connect and explore how I can contribute to your next digital journey. Whether you're seeking a redesign, a scalable frontend solution, or innovative UX enhancements, I'm eager to bring your vision to life.
+                </p>
         
-            <div class="btn-box">
-                <button class="btn-1" onclick="location.href='#contact'">Hire Me</button>
-                <button class="btn-2" onclick="window.location.href='experience.html'">Experience</button>
+                <div class="btn-box">
+                    <button class="btn-1" onclick="location.href='#contact'">Hire Me</button>
+                    <button class="btn-2" onclick="window.location.href='experience.html'">Experience</button>
+                </div>
+            </div>
+            <div class="img-box col">
+                <img src="img/img.jpeg" alt="Rip" class="img-fluid rounded float-end">
             </div>
         </div>
-        <div class="img-box">
-            <img src="img/img.jpeg" alt="Rip">
-        </div>
     </section>
-<!-- Working until here! -->
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="img/abt.jpeg" alt="RIP">
-        </div>
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3>Frontend <span>Developer</span></h3>
-            <p>Hello! I'm Sreejith, a passionate Frontend Developer dedicated to crafting exceptional user experiences. With a keen eye for detail and a love for clean, efficient code, I specialize in creating dynamic and responsive websites and web applications.<br/>
 
-                My journey into frontend development began with a fascination for blending creativity with technology. Over the years, I've honed my skills in HTML5, CSS3, JavaScript.<br/> I thrive in environments where innovation meets practicality, striving to deliver solutions that not only meet but exceed client expectations.<br>
+    <section class="about container-fluid text-start" id="about">
+        <div class="row">
+            <div class="about-img col">
+                <img src="img/abt.jpeg" alt="RIP" class="img-fluid rounded float-start">
+            </div>
+            <div class="about-content col">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend <span>Developer</span></h3>
+                <p>Hello! I'm Sreejith, a passionate Frontend Developer dedicated to crafting exceptional user experiences. With a keen eye for detail and a love for clean, efficient code, I specialize in creating dynamic and responsive websites and web applications.<br/>
+
+                    My journey into frontend development began with a fascination for blending creativity with technology. Over the years, I've honed my skills in HTML5, CSS3, JavaScript.<br/> I thrive in environments where innovation meets practicality, striving to deliver solutions that not only meet but exceed client expectations.<br>
                 
-                Beyond coding, I am committed to continuous learning and staying updated with the latest industry trends. This ensures that my projects not only look great but also perform seamlessly across all devices and browsers.<br/>
+                    Beyond coding, I am committed to continuous learning and staying updated with the latest industry trends. This ensures that my projects not only look great but also perform seamlessly across all devices and browsers.<br/>
                 
-                Let's collaborate and bring your ideas to life. Whether you're looking to enhance your digital presence, streamline user interactions, or embark on a new digital venture, I'm here to make it happen.
-            </p>
-            <a href="experience.html" class="btn-2">Experience</a>
+                    Let's collaborate and bring your ideas to life. Whether you're looking to enhance your digital presence, streamline user interactions, or embark on a new digital venture, I'm here to make it happen.
+                </p>
+                <a href="experience.html" class="btn-2">Experience</a>
+            </div>
         </div>
     </section>
 
